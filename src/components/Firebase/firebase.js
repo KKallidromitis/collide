@@ -1,18 +1,23 @@
 import app from 'firebase/app';
+import FirebaseContext from './context';
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA6wgJ0O7ksBO4RebUE8RqOi64Rp4kJwds",
-  authDomain: "collide-ffff.firebaseapp.com",
-  databaseURL: "https://collide-ffff.firebaseio.com",
-  projectId: "collide-ffff",
-  storageBucket: "collide-ffff.appspot.com",
-  messagingSenderId: "367433777373",
-  appId: "1:367433777373:web:ccf6ac3e9a7f158a231b34",
-  measurementId: "G-TGPMYG7XK6"
+    apiKey:             process.env.REACT_APP_API_KEY,
+    authDomain:         process.env.REACT_APP_AUTH_DOMAIN,
+    databaseURL:        process.env.REACT_APP_DATABASE_URL,
+    projectId:          process.env.REACT_APP_PROJECT_ID,
+    storageBucket:      process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId:  process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId:              process.env.REACT_APP_APP_ID,
+    measurementId:      process.env.REACT_APP_MEASUREMENT_ID,
 };
+
+
 class Firebase {
   constructor() {
     app.initializeApp(firebaseConfig);
   }
 }
 export default Firebase;
+export { FirebaseContext };

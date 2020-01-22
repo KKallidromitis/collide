@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import App from './components/App/index.js';
-import Firebase, { FirebaseContext } from './components/Firebase/context.js';
+import Firebase, { FirebaseContext } from './components/Firebase/firebase.js';
 
 ReactDOM.render(
   <FirebaseContext.Provider value={new Firebase()}>

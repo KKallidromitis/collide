@@ -9,6 +9,7 @@ import HomePage from '../Home/index';
 import AccountPage from '../Account/index';
 import AdminPage from '../Admin/index';
 import * as ROUTES from '../../constants/routes';
+
 const App = () => (
   <Router>
     <div>
