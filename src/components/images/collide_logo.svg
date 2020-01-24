@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="381px" height="320px" viewBox="0 0 381 320" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.1%" y="-4.6%" width="106.2%" height="109.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(-4.000000, -6.000000)">
+            <g id="Group-3">
+                <g id="Group-2">
+                    <g id="Group" filter="url(#filter-1)">
+                        <rect id="Rectangle" fill="#9ACEFF" transform="translate(129.500000, 129.500000) rotate(45.000000) translate(-129.500000, -129.500000) " x="38" y="38" width="183" height="183" rx="20"></rect>
+                        <rect id="Rectangle-Copy" fill="#C10BCB" transform="translate(259.400541, 129.400541) rotate(45.000000) translate(-259.400541, -129.400541) " x="167.900541" y="37.900541" width="183" height="183" rx="20"></rect>
+                        <path d="M194.400541,65 L250.41526,121.014719 C255.101551,125.70101 255.101551,133.29899 250.41526,137.985281 L194.5,193.900541 L138.485281,137.885822 C133.79899,133.199531 133.79899,125.601551 138.485281,120.91526 L194.400541,65 Z" id="Combined-Shape" fill-opacity="0.4" fill="#9ACEFF"></path>
+                    </g>
+                </g>
+            </g>
+            <text id="collide" fill="#B158DF" font-family="Arial-Black, Arial Black" font-size="60" font-weight="700">
+                <tspan x="84.4902344" y="325">collide</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
