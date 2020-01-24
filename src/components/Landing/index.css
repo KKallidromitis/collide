@@ -39,7 +39,7 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 800px;
+    height: 700px;
 }
 
 .c1{
@@ -76,6 +76,56 @@
     text-align: center;
     line-height: 1.6;
     
+}
+
+.w2{
+    background-repeat: no-repeat;
+    background-color: #4831b8;
+    height: 400px;
+}
+
+.c2{
+    max-width:800px;
+}
+
+.circle-icon {
+    background: #bb3385;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    line-height: 6px;
+    vertical-align: middle;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+.c2t1{
+    color: white;
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+.icons{
+    position: relative;
+    width: 50%;
+    display: 'flex';
+    justifyContent:'center';
+    alignItems:'center';
+    padding-top: 50px;
+}
+
+.w3{
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    height: 700px;
+}
+
+.w4{
+    background-repeat: no-repeat;
+    background-color: #56afd5;
+    height: 300px;
 }
 
 .footer{
