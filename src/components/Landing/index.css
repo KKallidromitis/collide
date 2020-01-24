@@ -3,11 +3,32 @@
         /*font-size:5vw;*/
         color: white;
         text-align: center;
-        font-size: 10px;
+        font-size: 55px;
         padding-top: 50px;
         font-style: bold;
         font-family: Verdana;
         font-weight: 600;
+        
+    }
+
+    .c1t2{
+        color: #FDFFFF;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 100;
+        font-size: 22px;
+        font-family: Verdana;
+    }
+
+    .icons{
+        position: relative;
+        padding-top: 30%;
+        padding-bottom: 5px;
+    }
+
+    .c2{
+        max-width:960px;
+        padding-bottom: 2%;
     }
 
   }
@@ -23,11 +44,33 @@
         /*font-size:5vw;*/
         color: white;
         text-align: center;
-        font-size:35px;
+        font-size: 35px;
         padding-top: 50px;
         font-style: bold;
         font-family: Verdana;
         font-weight: 600;
+    }
+
+
+    .c1t2{
+        color: #FDFFFF;
+        text-align: center;
+        line-height: 1.6;
+        font-weight: 100;
+        font-size: 20px;
+        font-family: Verdana;
+    }
+
+    .icons{
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 5px;
+    }
+
+    
+    .c2{
+        max-width:960px;
+        padding-bottom: 10%;
     }
 
   }
@@ -59,39 +102,29 @@
     height: auto;
 }
 
-
-.c1t1{
-    /*font-size:5vw;*/
-    color: white;
-    text-align: center;
-    font-size:35px;
-    padding-top: 50px;
-    font-style: bold;
-    font-family: Verdana;
-    font-weight: 600;
+.con_btn{
+height: 200px;
 }
 
-.c1t2{
-    color: white;
+.btn_fb{
     text-align: center;
-    line-height: 1.6;
-    
+    vertical-align: middle;
+    width: 50%;
+    margin: auto;
+    font-weight: 700;
+    font-size: 22px;
 }
-
 .w2{
     background-repeat: no-repeat;
     background-color: #4831b8;
-    height: 400px;
 }
 
-.c2{
-    max-width:800px;
-}
 
 .circle-icon {
     background: #bb3385;
-    width: 56px;
-    height: 56px;
+    color: #ffffff;
+    width: 66px;
+    height: 66px;
     border-radius: 50%;
     line-height: 6px;
     vertical-align: middle;
@@ -104,23 +137,40 @@
     color: white;
     text-align: center;
     line-height: 1.6;
+    font-size: 28px;
     
 }
 
-.icons{
-    position: relative;
-    width: 50%;
-    display: 'flex';
-    justifyContent:'center';
-    alignItems:'center';
-    padding-top: 50px;
+.c2t2{
+    color: #e7e4f6;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 100
 }
+
 
 .w3{
     background-repeat: no-repeat;
     background-color: #ffffff;
     height: 700px;
 }
+
+.c3{
+    max-width:800px;
+}
+
+.how{
+    height: 300px;
+}
+.c3t1{
+    margin: auto;
+    vertical-align: middle;
+    font-family: sans-serif;
+    font-weight: 700
+}
+
 
 .w4{
     background-repeat: no-repeat;
