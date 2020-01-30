@@ -31,6 +31,13 @@
         padding-bottom: 2%;
     }
 
+    .c3t1{
+        margin: auto;
+        vertical-align: middle;
+        font-family: Verdana;
+        font-weight: 700;
+    }
+
     .c4t1{
         margin: auto;
         /*font-size:5vw;*/
@@ -96,6 +103,14 @@
         padding-bottom: 10%;
     }
 
+    .c3t1{
+        margin: auto;
+        vertical-align: middle;
+        font-family: Verdana;
+        font-weight: 700;
+        font-size: 34px;
+    }
+
     .c4t1{
         margin: auto;
         /*font-size:5vw;*/
@@ -126,7 +141,7 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    padding-bottom: 50px;
 }
 
 .c1{
@@ -201,12 +216,7 @@ height: 200px;
 .how{
     height: 200px;
 }
-.c3t1{
-    margin: auto;
-    vertical-align: middle;
-    font-family: Verdana;
-    font-weight: 700;
-}
+
 
 .c3t2{
     font-family: Verdana;
