@@ -28,17 +28,17 @@ function Landing() {
         <Container className='c2'>
           <Row >
           <Col md={{ span: 4}}>
-            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'><i class="circle-icon"><Icon size={26} icon={iosPeople}/></i></div>
+            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'><i className="circle-icon"><Icon size={26} icon={iosPeople}/></i></div>
             <h1 className="c2t1">Convenient</h1>
             <p className="c2t2">We host small group happy hours within walking distance of your home and which fit around your schedule</p>
           </Col>
           <Col md={{ span: 4}}>
-            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'><i class="circle-icon"><Icon size={26} icon={androidCompass}/></i></div>
+            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'><i className="circle-icon"><Icon size={26} icon={androidCompass}/></i></div>
             <h1 className="c2t1">Connect</h1>
             <p className="c2t2">Meet people who live nearby, and have similar interests and availability. See them again at another event!</p>
           </Col>
           <Col md={{ span: 4}}>
-            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'><i class="circle-icon"><Icon size={26} icon={androidBar}/></i></div>
+            <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'><i className="circle-icon"><Icon size={26} icon={androidBar}/></i></div>
             <h1 className="c2t1">Casual</h1>
             <p className="c2t2">Come whenever, and leave whenever. There is no agenda, no set schedule, and no pressure or awkward conversation</p>
           </Col>
