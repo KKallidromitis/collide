@@ -48,8 +48,20 @@ function Landing() {
           <Col>
             <Row className="how"><h1 className="c3t1">How does it work?</h1></Row>
             <Row>
-              <h1 className="c3t2">Step1</h1>
-              <p className="c3t3">Provide your zip code and availability and we'll send you updates about the happy hours we host that are convenient for your location and schedule</p>
+              <h1 className="c3t2">Step 1:</h1>
+              <p className="c3t3">Provide your zip code and availability and we'll send you updates about the happy hours we host that are convenient for your location and schedule.</p>
+            </Row>
+             <Row>
+              <h1 className="c3t2">Step 2:</h1>
+              <p className="c3t3">Each event will have a dedicated liaison to help you locate the group, make introductions, and answer any questions.</p>
+            </Row>
+            <Row>
+              <h1 className="c3t2">Step 3:</h1>
+              <p className="c3t3">Come whenever and leave whenever. Our events are unstructured and casual, and meant to ensure everyone feels comfortable and included.</p>
+            </Row>
+            <Row>
+              <h1 className="c3t2">Step 4:</h1>
+              <p className="c3t3">We regularly host events so you’ll likely see the same people multiple times allowing you to slowly build connections and develop new friendships.</p>
             </Row>
           </Col>
         </Container>
@@ -57,9 +69,8 @@ function Landing() {
       <div className='w4'>
         <Container className='c4'>
           <Row>
-          <Col><h1 className="c1t1">Do fun stuff with cool people</h1></Col>
-          <Col><h1 className="c1t1">Do fun stuff with cool people</h1></Col>
-          <Col><h1 className="c1t1">Do fun stuff with cool people</h1></Col>
+          <h1 className="c1t1">Sounds cool? Try it out!</h1>
+          <Button variant="primary" size="lg" className='btn_fb'>Connect with Facebook</Button>
           </Row>
         </Container>
       </div>

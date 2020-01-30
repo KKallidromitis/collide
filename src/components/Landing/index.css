@@ -27,7 +27,7 @@
     }
 
     .c2{
-        max-width:960px;
+        max-width:1000px;
         padding-bottom: 2%;
     }
 
@@ -147,7 +147,7 @@ height: 200px;
     line-height: 1.8;
     font-size: 20px;
     font-family: sans-serif;
-    font-weight: 100
+    font-weight: 100;
 }
 
 
@@ -162,15 +162,20 @@ height: 200px;
 }
 
 .how{
-    height: 300px;
+    height: 200px;
 }
 .c3t1{
     margin: auto;
     vertical-align: middle;
     font-family: sans-serif;
-    font-weight: 700
+    font-weight: 700;
 }
 
+.c3t2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
 
 .w4{
     background-repeat: no-repeat;
