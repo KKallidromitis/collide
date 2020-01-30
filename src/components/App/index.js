@@ -1,15 +1,16 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-//import Navigation from '../Navigation/index';
 import LandingPage from '../Landing/index';
-import SignUpPage from '../SignUp/index';
+import * as ROUTES from '../../constants/routes';
+
+/*import SignUpPage from '../SignUp/index';
 import SignInPage from '../SignIn/index';
 import PasswordForgetPage from '../PasswordForget/index';
 import HomePage from '../Home/index';
 import AccountPage from '../Account/index';
-import AdminPage from '../Admin/index';
-import * as ROUTES from '../../constants/routes';
-const App = () => (
+import AdminPage from '../Admin/index'; */
+
+/* const App = () => (
   <Router>
     <div>
       <Route exact path={ROUTES.LANDING} component={LandingPage} />
@@ -20,6 +21,14 @@ const App = () => (
       <Route path={ROUTES.ACCOUNT} component={AccountPage} />
       <Route path={ROUTES.ADMIN} component={AdminPage} />
     </div>
+  </Router> */
+
+const App = () => (
+  <Router>
+    <div>
+      <Route exact path={ROUTES.LANDING} component={LandingPage} />
+    </div>
   </Router>
+
 );
 export default App;
