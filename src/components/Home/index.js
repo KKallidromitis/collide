@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Checkbox from "./checkbox";
-import {Container,Row,Col,Button,Carousel} from 'react-bootstrap';
 
 const OPTIONS_1 = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 const OPTIONS_2 = ["Morning (10-1 PM)", "Afternoon(2-6 PM)", "Evening (8-11 PM)"];
