@@ -1,21 +1,23 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import { withRouter } from 'react-router-dom';
+// import ReactDOM from "react-dom";
 //import { Dropdown } from 'semantic-ui-react'
-import { Container, Header, List } from "semantic-ui-react";
+// import { Container, Header, List } from "semantic-ui-react";
 import Example from "./example";
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import WeekdayOptions from './WeekdayOptions';
 import WeekendOptions from './WeekendOptions';
-import Checkbox from './Checkbox';
-import {Row,Col,Button,Carousel} from 'react-bootstrap';
-import Firebase from "firebase";
+import Checkbox from './checkbox';
+import {Row,Col} from 'react-bootstrap';
+// import Firebase from "firebase";
 import { withFirebase } from '../Firebase/context';
+import { compose } from 'recompose';
 
 const App = ({ children }) => (
-  <Container style={{ margin: 20 }}>
-    <text> At what time are you available starting on the weekdays? </text>
+  <div style={{ margin: 20 }}>
+    <p> At what time are you available starting on the weekdays? </p>
     {children}
-  </Container>
+  </div>
 );
 
 const styleLink = document.createElement("link");
@@ -23,7 +25,7 @@ styleLink.rel = "stylesheet";
 styleLink.href = "https://cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css";
 document.head.appendChild(styleLink);
 
-class Home extends Component {
+class HomeComponent extends Component {
   constructor(props) {
     super(props);
 
@@ -34,18 +36,13 @@ class Home extends Component {
     this.handleChange = this.handleChange.bind(this);
   }
 
-  writeUserData = () => {
-    withFirebase.database()
-      .ref("/survey/")
-      .set({
-        test: "temp"
-        //user_id: "temp",
-        //week_time: "pop",
-        //weekends: ["Saturday", "Sunday"],
-        //weekdays: ["Monday", "Tuesday"],
-      });
-      //.set(this.state);
-    console.log("DATA SAVED");
+  writeUserData = (event) => {
+    event.preventDefault(); 
+    console.log("hi")
+    this.props.firebase.set({
+      blah: "hi",
+      roles: {},
+    });
   };
 
   handleChange(e) {
@@ -82,9 +79,9 @@ class Home extends Component {
           <div className="col-sm-12">
 
             <div className='container'>
-              <text>
+              <p>
                 Which days would you like to hang out?
-              </text>
+              </p>
 
               <React.Fragment>
                 {
@@ -108,30 +105,30 @@ class Home extends Component {
           <div className="col-sm-12">
 
             <div className='container'>
-              <text>
+              <p>
                 When are you free on the weekends?
-              </text>
+              </p>
             </div>
           </div>
         </div>
 
-        <Container className='temp'>
+        <div className='temp'>
           <Row >
           <Col md={{ span:4}}>
             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'> </div>
-            <text>
+            <p>
               Saturday
-            </text>
+            </p>
           </Col>
 
           <Col md={{ span: 4}}>
             <div style={{display: 'flex',  justifyContent:'center', alignItems:'center'}} className='icons'> </div>
-            <text>
+            <p>
               Sunday
-            </text>
+            </p>
           </Col>
           </Row>
-        </Container>
+        </div>
 
         <div className="row mt-5">
           <div className="col-sm-12">
@@ -162,4 +159,10 @@ class Home extends Component {
     );
   }
 }
+
+const Home = compose(
+  withRouter,
+  withFirebase,
+)(HomeComponent);
+
 export default Home;
