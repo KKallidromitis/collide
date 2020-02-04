@@ -39,10 +39,7 @@ class HomeComponent extends Component {
   writeUserData = (event) => {
     event.preventDefault(); 
     console.log("hi")
-    this.props.firebase.set({
-      blah: "hi",
-      roles: {},
-    });
+    this.props.firebase.saveToDatabase()
   };
 
   handleChange(e) {
