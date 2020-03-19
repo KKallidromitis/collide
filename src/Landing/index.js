@@ -16,15 +16,18 @@ function Landing() {
   return (
     <div className='body'>
       <div className='w1'>
-      <img src={logo} className="logo" alt="logo_collide"/>
+      <p className="c1t0">Virtual Hangouts During Corona Virus</p>
         <Container className='c1'>
           <Row>
-            <Col><p className="c1t1">Do fun things and meet cool people</p></Col>
+            <Col><p className="c1t1">#SocialDistancing got you bored AF?</p></Col>
           </Row>
           <Row>
             <Col><h3 className="c1t2">Whether you're visiting, just moved, or looking to expand your social circle, Collide is the best way to meet new people</h3></Col>
           </Row>
           <Row className='con_btn'>
+            <form className="btn_form" >
+              <Button variant="primary" size="lg" className='btn_fb' onClick={() => window.open( 'http://app.collidesocial.com')}>Join the Beta</Button>
+            </form>
             <form className="btn_form" >
               <Button variant="primary" size="lg" className='btn_fb' onClick={() => window.open( 'http://app.collidesocial.com')}>Join the Beta</Button>
             </form>
